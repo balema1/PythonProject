@@ -20,13 +20,12 @@ def decision1(user_response):
 		decision2_3(user_response)
 	
 def decision2_1(user_response):
-	print("This would be the story continuing after the user's second response")
 	if user_response == 1:
-		print("User selected 1. What do you do next?")
-		user_response = int(input("1.option one\n2.option two\n3.option three"))
+		print("Your heading towards the door")
+		user_response = int(input("1.Try to enter a room\n2.Take a peek at the door \n3.Hide somewhere"))
 	elif user_response == 2:
-		print("User selected 2. What do you do next?")
-		user_response = int(input("1.option one\n2.option two\n3.option three"))
+		print("You try to hide")
+		user_response = int(input("1. add here \n2.option two\n3.option three"))
 	elif user_response == 3:
 		print("User selected 3. What do you do next?")
 		user_response = int(input("1.option one\n2.option two\n3.option three"))
