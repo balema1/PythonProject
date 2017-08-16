@@ -15,8 +15,8 @@ def decision1(user_response):
 		user_response = int(input("1.You keep the light off and stand up.\n2.You keep the light on and stand up.\n3.Try to crouch and hide"))
 		decision2_2(user_response)
 	elif user_response == 3:
-		print("User selected 3. What do you do next?")
-		user_response = int(input("1.option one\n2.option two\n3.option three"))
+		print("You try to leave but the gate of the hospital close on you")
+		user_response = int(input("1.Turn on the flashlght on your phone to help you see.\n2.You explore in the dark to avoid anyone outside catching you.\n3.Take a look around you."))
 		decision2_3(user_response)
 	
 def decision2_1(user_response):
